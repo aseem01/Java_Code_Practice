@@ -32,14 +32,14 @@ public class ReverseQueue {
             System.out.println(queue.peek());
             queue.poll();
         }
-        
+        System.out.print("\n");
         System.out.println("After insert a value in stack");
         while(!stack.isEmpty()){
             queue.add(stack.peek());
             System.out.println(stack.peek());
             stack.pop();
         }
-        
+        System.out.print("\n");
         System.out.println("After reverse a value in the queue");
         while(!queue.isEmpty()){
             System.out.println(queue.peek());
