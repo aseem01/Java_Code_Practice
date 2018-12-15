@@ -4,7 +4,6 @@
  * and open the template in the editor.
  */
 package BJIT;
-
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
